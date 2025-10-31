@@ -52,7 +52,7 @@ YourBatchUtilityRoot/
 |-----------------------|-----------------------------------------------------------------------------|
 | 🔍 **Batch File Search**      | Instantly locate `.bat` or any file type in chosen folders/subfolders.    |
 | 📂 **Custom Source Folder**   | Select any folder as your search starting point.                         |
-| 🎯 **File Type Filtering**    | Filter search by extension (`.bat`, `.txt`, etc.).                       |
+| 🎯 **File Type Filtering**    | Filter search by extension (`.mkv`, `.doc`, etc.).                       |
 | 🗃️ **Bulk Copy Function**     | Copy multiple found files to a destination in one go.                    |
 | 💬 **Progress Feedback**      | Real-time status updates during search & copy.                           |
 | ⏱️ **Fast Performance**       | Optimized for large directories.                                         |
