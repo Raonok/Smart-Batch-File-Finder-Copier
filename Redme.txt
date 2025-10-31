@@ -1,0 +1,7 @@
+Set Destination Folder in bat File ( set "SEARCH_ROOT=D:\") Using Notepad++
+
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+Add Your searching files exact name in input.txt Using Notepad++
