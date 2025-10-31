@@ -4,10 +4,14 @@ Smart PC Batch File Finder is a simple and efficient Windows utility designed to
 
 :::::::Process:::::::
 
-Set Destination Folder in bat File ( set "SEARCH_ROOT=D:\") Using Notepad++
+----------------------------------------------------------------------------------
+Set Search Destination Folder in bat File ( set "SEARCH_ROOT=D:\") Using Notepad++
+----------------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------
----------------------------------------------------------------
 
+
+-----------------------------------------------------------------
 Add Your searching files exact name in input.txt Using Notepad++
+-----------------------------------------------------------------
