@@ -26,7 +26,7 @@
 ## 📦 Folder Structure
 
 ```plaintext
-YourBatchUtilityRoot/
+BatchUtilityRoot/
 │
 ├── Smart-Batch-File-Finder-Copier.bat                  # ← Main batch script
 │
