@@ -67,7 +67,7 @@ YourBatchUtilityRoot/
 
 #### 1️⃣ Set the Search Destination Folder
 
-Open `find_files.bat` in your text editor.  
+Open `Smart-Batch-File-Finder-Copier.bat` in your text editor. (Recomanded: Notepad++) 
 **Edit this line** to set your search root:
 ```batch
 set "SEARCH_ROOT=D:\"
@@ -75,7 +75,7 @@ set "SEARCH_ROOT=D:\"
 
 #### 2️⃣ Add Filenames to Search
 
-- Open `Input/input.txt` in your editor.
+- Open `Input/input.txt` in your editor. (Recomanded: Notepad++)
 - Add each filename (with or without extension), **one per line**.
 
 #### 3️⃣ Run the Script
