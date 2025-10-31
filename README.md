@@ -1,4 +1,4 @@
-# 🖥️ Smart-PC-Batch-File-Finder
+# 🖥️ Smart-Batch-File-Finder-Copier
 
 > **Smart PC Batch File Finder** is a simple yet powerful Windows utility to help you quickly locate and copy multiple files from a specified folder.  
 > Ideal for anyone who needs to gather batch files (`.bat`) or any other file types from one location to another, making bulk file management fast and easy!
