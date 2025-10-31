@@ -28,7 +28,7 @@
 ```plaintext
 YourBatchUtilityRoot/
 │
-├── find_files.bat                  # ← Main batch script
+├── Smart-Batch-File-Finder-Copier.bat                  # ← Main batch script
 │
 ├── Input/
 │   └── input.txt                   # ← List of filenames to search (one per line)
@@ -80,7 +80,7 @@ set "SEARCH_ROOT=D:\"
 
 #### 3️⃣ Run the Script
 
-- **Double-click** `find_files.bat` or run it from Command Prompt.
+- **Double-click** `Smart-Batch-File-Finder-Copier.bat` or run it from Command Prompt.
 
 The script will:
 - Search for all listed files in the specified folder tree.
