@@ -7,7 +7,9 @@ for /f %%A in ('echo prompt $E ^| cmd') do set "ESC=%%A"
 REM ==============================
 REM    MANUALLY SET THE SEARCH ROOT FOLDER BELOW
 REM ==============================
-set "SEARCH_ROOT=D:\"   REM <-- CHANGE THIS LINE
+set "SEARCH_ROOT=D:\Smart File Finder\Log"   :: <--- CHANGE THIS PATH
+echo Searching inside: %SEARCH_ROOT%
+echo.
 
 REM === COLORED BANNER ===
 call :PrintBanner
@@ -147,6 +149,11 @@ for /f "usebackq delims=" %%F in ("%INPUTFILE%") do (
 )
 echo.
 
+REM === IF NOTHING FOUND, CLEAR NOT FOUND LOG FILE ===
+if "%foundCount%"=="0" (
+    echo. > "%LOGFILE_NOTFOUND%"
+)
+
 REM === PRINT SUMMARY IN YELLOW ===
 call :PrintSummary %totalItems% %foundCount% %notFoundCount%
 
@@ -197,8 +204,6 @@ echo %CLR_YELLOW%==============================================%CLR_RESET%
 exit /b
 
 :PrintCentered
-REM Usage: call :PrintCentered "Your message"
-REM Assumes console width is 80
 setlocal EnableDelayedExpansion
 set "str=%~1"
 set "width=80"
