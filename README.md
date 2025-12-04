@@ -67,7 +67,7 @@ BatchUtilityRoot/
 
 #### 1️⃣ Set the Search Destination Folder
 
-Open `Smart-Batch-File-Finder-Copier.bat` in your text editor. (Recomanded: Notepad++) 
+Open `Smart-Batch-File-Copier.bat` in your text editor. (Recomanded: Notepad++) 
 **Edit this line** to set your search root:
 ```batch
 set "SEARCH_ROOT=D:\"
@@ -80,7 +80,7 @@ set "SEARCH_ROOT=D:\"
 
 #### 3️⃣ Run the Script
 
-- **Double-click** `Smart-Batch-File-Finder-Copier.bat` or run it from Command Prompt.
+- **Double-click** `Smart-Batch-File-Copier.bat` or run it from Command Prompt.
 
 The script will:
 - Search for all listed files in the specified folder tree.
