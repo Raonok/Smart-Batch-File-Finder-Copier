@@ -7,7 +7,7 @@ for /f %%A in ('echo prompt $E ^| cmd') do set "ESC=%%A"
 REM ==============================
 REM    MANUALLY SET THE SEARCH ROOT FOLDER BELOW
 REM ==============================
-set "SEARCH_ROOT=D:\Smart File Finder\Log"   :: <--- CHANGE THIS PATH
+set "SEARCH_ROOT=D:\"   :: <--- CHANGE THIS PATH
 echo Searching inside: %SEARCH_ROOT%
 echo.
 
